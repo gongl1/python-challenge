@@ -1,11 +1,14 @@
 import os
 import csv
-# csvpath = os.path.join('..', 'PyBank', 'Resources', '02-Homework_03-Python_Instructions_PyBank_Resources_budget_data.csv') #main.py is in Pybank right now and  .. goes to PYTHON-CHALLENGE, then goes down to PyBank
+
 csvpath = os.path.join('Resources', '02-Homework_03-Python_Instructions_PyBank_Resources_budget_data.csv')
+# 3 alternatives listed below
 # csvpath = os.path.join('C:\\Users\\gongl\\Desktop\\DS_Bootcamp_2021class\\Homework\\python-challenge\\PyBank\\Resources\\02-Homework_03-Python_Instructions_PyBank_Resources_budget_data.csv')
 # csvpath = os.path.join('C:\\', 'Users', 'gongl', 'Desktop', 'DS_Bootcamp_2021class', 'Homework', 'python-challenge', 'PyBank', 'Resources', '02-Homework_03-Python_Instructions_PyBank_Resources_budget_data.csv')
+# csvpath = os.path.join('..', 'PyBank', 'Resources', '02-Homework_03-Python_Instructions_PyBank_Resources_budget_data.csv') #main.py is in Pybank right now and  .. goes to PYTHON-CHALLENGE, then goes down to PyBank
 
-
+# This is the def function route I would like to try out when I have some down time
+# I did use def in PyPoll
 # def print_change(row):
     # for frist_row in 1 to row_month
         # frist_row[1]
